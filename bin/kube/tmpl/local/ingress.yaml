@@ -11,7 +11,7 @@ spec:
     serviceName: default-http-backend
     servicePort: 80
   rules:
-    - host: $APP_URL
+    - host: $APP_VERSION.$APP_URL
       http:
         paths:
           - path: /
